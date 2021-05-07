@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <br>
+    Calculadora Basica Hau Pech
+    <br>
+    <p>El resultado es: <span id="el-resultado"></span></p>
+    <br>
+    <form id="miformulario" name="" method="POST">
+        <label for="">Numero 1: </label>
+        <input type="number" name="" id="valor1" autofocus placeholder="Escribe un numero">
+        <button onclick="limpiar();">limpiar campos(C)</button>
+
+        <br>
+        <br>
+        <label for="">Numero 2: </label>
+        <input type="number" name="" id="valor2" autofocus placeholder="Escribe un numero">
+
+        <br>
+        <br>
+        <button type="button" onclick="sumar();">Suma(+)</button>
+        <button type="button" onclick="restar();">Restar(-)</button>
+        <button type="button" onclick="multiplicar();">Multiplicar(*)</button>
+        <button type="button" onclick="dividir();">Dividir(/)</button>
+        <br>
+        <p>Perdoneme por no darle estilo el CSS no es mi fuerte </p>
+
+    </form>
+    <script type="text/javascript" src="js/funciones.js"></script>
+</body>
+</html>
